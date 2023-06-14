@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { airbnb, discount, airbnb } from "../assets";
+import { airbnb, discount } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
