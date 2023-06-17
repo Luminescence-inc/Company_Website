@@ -10,7 +10,7 @@ const Hero = () => (
     >
       <div className="flex flex-row justify-between item-center w-full">
         <h1
-          className="flex-1 font-poppins font-semibold ss:text-[72px] text-[2.2rem] text-white
+          className="flex-1 font-poppins font-semibold lg:text-[76px] text-[2.5rem]  text-white
           ss:leading-[100px] leading-[75px] uppercase text-gradient tracking-widest"
         >
           Luminescence
@@ -33,9 +33,9 @@ const Hero = () => (
       <div className="absolute z-[1] w-[80%] h-[80%] bottom-20 white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
     </div>
-    <div className={`ss:hidden ${styles.flexCenter}`}>
+    {/* <div className={`ss:hidden ${styles.flexCenter}`}>
       <GetStarted />
-    </div>
+    </div> */}
   </section>
 );
 export default Hero;

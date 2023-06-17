@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./style";
 import {
+  About,
   Billing,
   Business,
   CardDeal,
@@ -30,8 +31,9 @@ const App = () => (
     {/* Body */}
     <div className={`bg-primary ${style.paddingX} ${style.flexStart}`}>
       <div className={`${style.boxWidth}`}>
-        <Stats />
-        <Business />
+        {/* <Stats /> */}
+        {/* <Business />` */}
+        <About />
         <Billing />
         <CardDeal /> <Clients /> <CTA />
         <Footer />
