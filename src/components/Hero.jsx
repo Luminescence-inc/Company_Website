@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { airbnb, discount } from "../assets";
+import { airbnb, discount, robot_hand } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
@@ -10,7 +10,7 @@ const Hero = () => (
     >
       <div className="flex flex-row justify-between item-center w-full">
         <h1
-          className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white
+          className="flex-1 font-poppins font-semibold ss:text-[72px] text-[2.2rem] text-white
           ss:leading-[100px] leading-[75px] uppercase text-gradient tracking-widest"
         >
           Luminescence
@@ -25,7 +25,7 @@ const Hero = () => (
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img
-        src={airbnb}
+        src={robot_hand}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
       />
