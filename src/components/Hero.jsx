@@ -10,7 +10,7 @@ const Hero = () => (
     >
       <div className="flex flex-row justify-between item-center w-full">
         <h1
-          className="flex-1 font-poppins font-semibold lg:text-[76px] text-[2.5rem]  text-white
+          className="flex-1 font-poppins font-semibold lg:text-[76px] text-[2.3rem]  text-white
           ss:leading-[100px] leading-[75px] uppercase text-gradient tracking-widest"
         >
           Luminescence
