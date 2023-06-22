@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Trust",
+    content: `When we trust eachother to deliver our part, there is peace of mind and the company grows.
+      Continous Experimentation and learning: With continuous experimentation and learning, we know very well how important validated research is before heavy investment
+      `,
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Honesty",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "When we are honest with each other then we can trust each other and then we can deliver on our promise.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    title: "Leadership",
+    content: `Just as Alexandra the Great said, I do not fear lions led by a sheep but rather I fear sheeps led by a lion. We emphasize greatly on leadership because that is where the hone of vision lies. Once there is a faulty vision, it all comes down crashing.`,
   },
 ];
 

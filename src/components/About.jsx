@@ -8,7 +8,9 @@ const Card = ({ title, message }) => {
       className={`flex flex-col p-6 rounded-[20px] feature-card ${layout.sectionImg}`}
     >
       <h2 className={styles.heading2}>{title}</h2>
-      <p className={`${styles.paragraph}  max-w-[470px] mt-5`}>{message}</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 md:h-[10rem]`}>
+        {message}
+      </p>
     </div>
   );
 };
@@ -27,7 +29,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[23px] mb-1">
+      <p className="font-poppins font-normal text-dimWhite text-[16px] md:w-[20rem] leading-[23px] mb-1">
         {content}
       </p>
     </div>
@@ -35,18 +37,22 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const About = () => {
-  let message1 = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been th       industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,remaining essentially unchanged. It was popularised in the 1960s with
+  let vision = `To be a leading center of excellence for future innovative thoughts, market strategies, technology and design where like minds connect to create solutions and services that are of great use to mankind.
   `;
+  let mission = `To create cohesive and ethical technology for businesses and individuals to aide day-to-day business operation and make activities easier`;
   return (
-    <section id="about" className={layout.section}>
-      <Card title="Vision" message={message1} />
-      <Card title="Mission" message={message1} />
-      <div className={`${layout.sectionImg} flex-col`}>
-        <h2 className={styles.heading2}>Core values</h2>
-        {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} />
-        ))}
+    <section id="about" className={layout.sectionCol}>
+      <div className={layout.section}>
+        <Card title="Vision" message={vision} />
+        <Card title="Mission" message={mission} />
+      </div>
+      <h2 className={`${styles.heading2} ${styles.flexCenter}`}>Core values</h2>
+      <div>
+        <div className={`${layout.section} `}>
+          {features.map((feature, index) => (
+            <FeatureCard key={feature.id} {...feature} index={index} />
+          ))}
+        </div>
       </div>
     </section>
   );
