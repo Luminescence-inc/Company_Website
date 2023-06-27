@@ -25,6 +25,9 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import robot_hand from "./robot_hand.png";
 import bulb from "./bulb.png";
+import bizConnect from "./BizConnect.png";
+import Ripple from "./Ripple.png";
+import homeExplorer from "./homeExplorer.png";
 
 export {
   airbnb,
@@ -54,4 +57,7 @@ export {
   people03,
   robot_hand,
   bulb,
+  bizConnect,
+  Ripple,
+  homeExplorer,
 };
