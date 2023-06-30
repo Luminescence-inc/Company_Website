@@ -31,6 +31,7 @@ import Ripple from "./Ripple.png";
 import homeExplorer from "./homeExplorer.png";
 import johnnyimage from "./johnnyimage.png";
 import thomasimage from "./thomasimage.png";
+import walterImage from "./walterImage.png";
 
 export {
   airbnb,
@@ -65,4 +66,5 @@ export {
   homeExplorer,
   johnnyimage,
   thomasimage,
+  walterImage,
 };

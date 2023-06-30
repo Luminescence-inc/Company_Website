@@ -14,6 +14,7 @@ import {
   shield,
   star,
   thomasimage,
+  walterImage,
   johnnyimage,
 } from "../assets";
 
@@ -66,24 +67,24 @@ export const feedback = [
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Thomas Ebere",
-    title: "Founder & Leader",
+    title: "Founder & CEO",
     img: thomasimage,
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Johnny Okolo",
-    title: "Chief Product Officer",
-    img: johnnyimage,
+    name: "Walter Okpala",
+    title: "Founder & CTO",
+    img: walterImage,
   },
   {
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Johnny Okolo",
+    title: "Founder & CPO",
+    img: johnnyimage,
   },
 ];
 
