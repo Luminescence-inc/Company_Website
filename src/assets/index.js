@@ -32,6 +32,7 @@ import homeExplorer from "./homeExplorer.png";
 import johnnyimage from "./johnnyimage.png";
 import thomasimage from "./thomasimage.png";
 import walterImage from "./walterImage.png";
+import jamesImage from "./jamesImage.png";
 
 export {
   airbnb,
@@ -67,4 +68,5 @@ export {
   johnnyimage,
   thomasimage,
   walterImage,
+  jamesImage,
 };

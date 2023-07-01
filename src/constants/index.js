@@ -16,6 +16,7 @@ import {
   thomasimage,
   walterImage,
   johnnyimage,
+  jamesImage,
 } from "../assets";
 
 export const navLinks = [
@@ -80,6 +81,14 @@ export const feedback = [
   },
   {
     id: "feedback-3",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "James anwar",
+    title: "Founder & COO",
+    img: jamesImage,
+  },
+  {
+    id: "feedback-4",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Johnny Okolo",
