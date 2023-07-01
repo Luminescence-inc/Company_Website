@@ -65,7 +65,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "The question about our greatness has never been in doubt but rather how great we wanted to be. Through Luminescence, we show a glimpse.",
     name: "Thomas Ebere",
     title: "Founder & CEO",
     img: thomasimage,
