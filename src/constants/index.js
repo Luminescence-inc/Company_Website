@@ -17,6 +17,8 @@ import {
   walterImage,
   johnnyimage,
   jamesImage,
+  oscarImage,
+  nelsonImage,
 } from "../assets";
 
 export const navLinks = [
@@ -73,8 +75,7 @@ export const feedback = [
   },
   {
     id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    content: "Make a difference.",
     name: "Walter Okpala",
     title: "Founder & CTO",
     img: walterImage,
@@ -94,6 +95,21 @@ export const feedback = [
     name: "Johnny Okolo",
     title: "Founder & CPO",
     img: johnnyimage,
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Success is a journey, not a destination. Embrace failures, learn from them, and let the courage to persist pave your path to triumph.",
+    name: "Newton Imonjirie",
+    title: "CRDO",
+    img: nelsonImage,
+  },
+  {
+    id: "feedback-6",
+    content: "Anything worth doing, is worth doing well.",
+    name: "Oscar Waka",
+    title: "CSA",
+    img: oscarImage,
   },
 ];
 
