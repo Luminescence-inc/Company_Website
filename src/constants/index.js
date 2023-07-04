@@ -75,7 +75,7 @@ export const feedback = [
   },
   {
     id: "feedback-2",
-    content: "Make a difference.",
+    content: "Luminescence will make a difference.",
     name: "Walter Okpala",
     title: "Founder & CTO",
     img: walterImage,
