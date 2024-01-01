@@ -4,13 +4,12 @@ import {
   About,
   Billing,
   CardDeal,
-  Clients,
   CTA,
   Footer,
   Hero,
   Navbar,
-  Stats,
   Testimonials,
+  SmartShield,
 } from "./components";
 
 const App = () => (
@@ -31,10 +30,10 @@ const App = () => (
     <div className={`bg-primary ${style.paddingX} ${style.flexStart}`}>
       <div className={`${style.boxWidth}`}>
         <About />
+        <SmartShield />
         <Billing />
         <CardDeal />
         <CTA />
-        {/* <Clients /> */}
 
         <Testimonials />
         <Footer />

@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { airbnb, discount, robot_hand } from "../assets";
-import GetStarted from "./GetStarted";
+import { robot_hand } from "../assets";
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -33,9 +32,6 @@ const Hero = () => (
       <div className="absolute z-[1] w-[80%] h-[80%] bottom-20 white__gradient" />
       <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
     </div>
-    {/* <div className={`ss:hidden ${styles.flexCenter}`}>
-      <GetStarted />
-    </div> */}
   </section>
 );
 export default Hero;

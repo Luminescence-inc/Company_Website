@@ -1,15 +1,4 @@
 import {
-  people01,
-  people02,
-  people03,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   send,
   shield,
   star,
@@ -19,6 +8,7 @@ import {
   jamesImage,
   oscarImage,
   nelsonImage,
+  callyImage,
 } from "../assets";
 
 export const navLinks = [
@@ -77,7 +67,7 @@ export const feedback = [
     id: "feedback-2",
     content: "Luminescence will make a difference.",
     name: "Walter Okpala",
-    title: "Founder & CTO",
+    title: "Co-founder & CTO",
     img: walterImage,
   },
   {
@@ -85,7 +75,7 @@ export const feedback = [
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "James anwar",
-    title: "Founder & COO",
+    title: "Co-founder & COO",
     img: jamesImage,
   },
   {
@@ -93,7 +83,7 @@ export const feedback = [
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Johnny Okolo",
-    title: "Founder & CPO",
+    title: "Co-founder & CPO",
     img: johnnyimage,
   },
   {
@@ -101,15 +91,22 @@ export const feedback = [
     content:
       "Success is a journey, not a destination. Embrace failures, learn from them, and let the courage to persist pave your path to triumph.",
     name: "Newton Imonjirie",
-    title: "CRDO",
+    title: "Co-founder and CRDO",
     img: nelsonImage,
   },
   {
     id: "feedback-6",
     content: "Anything worth doing, is worth doing well.",
     name: "Oscar Waka",
-    title: "CSA",
+    title: "Co-founder and CSA",
     img: oscarImage,
+  },
+  {
+    id: "feedback-7",
+    content: "Anything worth doing, is worth doing well.",
+    name: "Caleb O. Williams",
+    title: "Co-founder and CDO",
+    img: callyImage,
   },
 ];
 
@@ -197,44 +194,44 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
+// export const socialMedia = [
+//   {
+//     id: "social-media-1",
+//     icon: instagram,
+//     link: "https://www.instagram.com/",
+//   },
+//   {
+//     id: "social-media-2",
+//     icon: facebook,
+//     link: "https://www.facebook.com/",
+//   },
+//   {
+//     id: "social-media-3",
+//     icon: twitter,
+//     link: "https://www.twitter.com/",
+//   },
+//   {
+//     id: "social-media-4",
+//     icon: linkedin,
+//     link: "https://www.linkedin.com/",
+//   },
+// ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+// export const clients = [
+//   {
+//     id: "client-1",
+//     logo: airbnb,
+//   },
+//   {
+//     id: "client-2",
+//     logo: binance,
+//   },
+//   {
+//     id: "client-3",
+//     logo: coinbase,
+//   },
+//   {
+//     id: "client-4",
+//     logo: dropbox,
+//   },
+// ];
