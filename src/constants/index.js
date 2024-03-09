@@ -75,7 +75,7 @@ export const feedback = [
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "James anwar",
-    title: "Co-founder & COO",
+    title: "Co-founder",
     img: jamesImage,
   },
   {
@@ -86,28 +86,28 @@ export const feedback = [
     title: "Co-founder & CPO",
     img: johnnyimage,
   },
+  // {
+  //   id: "feedback-5",
+  //   content:
+  //     "Success is a journey, not a destination. Embrace failures, learn from them, and let the courage to persist pave your path to triumph.",
+  //   name: "Newton Imonjirie",
+  //   title: "Co-founder and CRDO",
+  //   img: nelsonImage,
+  // },
   {
     id: "feedback-5",
-    content:
-      "Success is a journey, not a destination. Embrace failures, learn from them, and let the courage to persist pave your path to triumph.",
-    name: "Newton Imonjirie",
-    title: "Co-founder and CRDO",
-    img: nelsonImage,
-  },
-  {
-    id: "feedback-6",
     content: "Anything worth doing, is worth doing well.",
     name: "Oscar Waka",
-    title: "Co-founder and CSA",
+    title: "Co-founder and COO",
     img: oscarImage,
   },
-  {
-    id: "feedback-7",
-    content: "Anything worth doing, is worth doing well.",
-    name: "Caleb O. Williams",
-    title: "Co-founder and CDO",
-    img: callyImage,
-  },
+  // {
+  //   id: "feedback-7",
+  //   content: "Anything worth doing, is worth doing well.",
+  //   name: "Caleb O. Williams",
+  //   title: "Co-founder and CDO",
+  //   img: callyImage,
+  // },
 ];
 
 export const stats = [
