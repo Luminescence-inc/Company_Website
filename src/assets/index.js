@@ -7,6 +7,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import robot_hand from "./robot_hand.png";
 import bizConnect from "./bizConnect.png";
+import bizConnect24 from "./newBizconnectImg.png";
 import Ripple from "./Ripple.png";
 import homeExplorer from "./homeExplorer.png";
 import johnnyimage from "./johnnyimage.png";
@@ -37,4 +38,5 @@ export {
   oscarImage,
   callyImage,
   rMK,
+  bizConnect24,
 };
